@@ -4,7 +4,7 @@ Version: 1.0.0
 Summary: To receive syslog on udp and host the logs through API
 Home-page: https://github.com/yourusername/my_project
 Author: Sneha Gupta
-Author-email: snehagupta@bel.co.in
+Author-email: sneha.gupta.hbti@gmail.com
 License: MIT
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
