@@ -7,7 +7,7 @@ setup(
     long_description=open("README.md").read(),    # Long description from README
     long_description_content_type="text/markdown",
     author="Sneha Gupta",                # Author's name
-    author_email="snehagupta@bel.co.in", # Author's email
+    author_email="sneha.gupta.hbti@gmail.com", # Author's email
     url="https://github.com/yourusername/my_project", # Project URL
     license="MIT",                     # License type
     packages=find_packages(),          # Automatically find packages
