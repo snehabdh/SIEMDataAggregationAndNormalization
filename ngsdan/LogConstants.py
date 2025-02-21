@@ -1,6 +1,6 @@
 UDP_SERVER_PORT = 9001
 WEB_SERVER_PORT = 9002
-UDP_IP = "10.10.100.55"
+UDP_IP = "localhost"
 
 	
 SIEM_MODULE = 1
@@ -97,8 +97,8 @@ FileRead=63
 
 TIME_RANGE = 1  # 1 sec
 PORT_SCAN_THRES = 10  # Number of attempts to trigger alert
-UPLOAD_THRESHOLD = 1000000  # 1000 KB = 1MB
-DOWNLOAD_THRESHOLD = 1000000 # 1000 KB
+UPLOAD_THRESHOLD = 10000  # 1000 KB = 1MB
+DOWNLOAD_THRESHOLD = 10000 # 1000 KB
 CPU_USAGE_THRESHOLD = 90  # CPU usage percentage threshold
 DISK_USAGE_THRESHOLD = 90  # Disk usage percentage threshold
 PACKET_COUNT_THRESHOLD = 100000  # Number of packets in TIME_RANGE to trigger DoS detection

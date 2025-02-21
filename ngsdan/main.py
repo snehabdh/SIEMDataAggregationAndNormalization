@@ -1196,12 +1196,12 @@ def normalize_event(current_event):
         
     log_text = f"{file_path}, exe: {current_event.get('exe')}, {normalized_syscall} success: {current_event.get('success')}"
     print(log_text)
-    #event_reason = f'{current_event.get('exe')}'
+    event_reason = f"{current_event.get('exe')}"
     log_event(
         component=1,
         resource='auditd',
         log_text=log_text,
-        event_reason='dfdf',
+        event_reason=event_reason,
         mac_address=get_mac_address(),
         ip_address=get_device_ip(),
         event_type=FileAndObjectAccessEvents,
